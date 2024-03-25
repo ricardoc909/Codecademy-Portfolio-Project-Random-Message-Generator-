@@ -3,10 +3,10 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    background-image: url(https://wallpapercave.com/wp/wp4381531.jpg);
-    background-size: auto;
+    background-image: url(https://images.unsplash.com/photo-1710943594929-2140cc29900f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 100%;
     
 }
 
@@ -53,7 +53,7 @@ button:hover {
 }
 @media screen and (max-width: 420px) {
     html {
-        background-image: url('https://wallpapercave.com/wp/wp4381531.jpg');
+        background-image: url('https://images.unsplash.com/photo-1710943594929-2140cc29900f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
         background-size: contain; /* Ensure the image fits within the container */
         background-repeat: no-repeat; /* Prevent the image from repeating */
         background-position: center 400px;
