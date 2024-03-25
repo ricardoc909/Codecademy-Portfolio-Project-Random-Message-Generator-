@@ -1,0 +1,1 @@
+console.log("Lets create a random message generator");
