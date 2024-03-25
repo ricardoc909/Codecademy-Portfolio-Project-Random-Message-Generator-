@@ -39,10 +39,15 @@ function generateRandomMessage() {
     // Combine the components to form the message
     const message = `${beginning} ${activity} ${ending} ${country}.`;
     
-    return message;
+    //Update message display with the generated message
+    document.getElementById("messageDisplay").value = message;
+
 }
 
 /* Test the message generation functionality
 for (let i = 0; i < 5; i++) {
     console.log(generateRandomMessage());
 }*/
+
+// Add event listener to the button
+document.getElementById("generateBtn").addEventListener("click", generateRandomMessage);
