@@ -51,3 +51,21 @@ button:hover {
     font-weight: bold;
     font-size: 16px;
 }
+@media screen and (max-width: 420px) {
+    html {
+        background-image: url('https://wallpapercave.com/wp/wp4381531.jpg');
+        background-size: contain; /* Ensure the image fits within the container */
+        background-repeat: no-repeat; /* Prevent the image from repeating */
+        background-position: center 400px;
+        background-color: #007bff;
+    }
+}
+@media screen and (max-width: 420px) {
+    #messageDisplay {
+        font-size: 12px; /* Set the font size to 12 pixels */
+        font-weight: normal; /* Set the font weight to normal */
+    }
+}
+
+
+
